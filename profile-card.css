@@ -5,12 +5,14 @@
     color: hsl(0, 0%, 59%);
 } */
 body{
-    font-family: 'Kumbh Sans', sans-serif;
-    background-color:hsl(185, 75%, 39%) ;
+    font-family: 'Kumbh Sans';
+    background: url(/images/bg-pattern-top.svg) no-repeat -340px -500px, url(/images/bg-pattern-bottom.svg) no-repeat 625px 310px;
+    background-color:hsl(185, 75%, 39%);
+
 }
 
-
 .card-profile-main{
+    display: block;
     margin: auto;
     margin-top: 100px;
     text-align: center;
@@ -37,7 +39,6 @@ body{
 .main-card p{
     color: hsl(227, 10%, 46%);
     font-weight: 400;
-    font-size: 17px;
 }
 
 .name{
@@ -86,7 +87,6 @@ body{
 .inf p{
     color: hsl(227, 10%, 46%);
     font-weight: 400;
-    font-size: 400;
 }
 
 .attribution p{
